@@ -3,11 +3,11 @@
 ![Running Simulator](running_simulator.png?raw=true "Running Simulator")
 
 The [LVGL](https://github.com/lvgl/lvgl) is written mainly for microcontrollers and embedded systems however you can run the library **on your PC** as well without any embedded hardware.
-In this repository, the simulator for LVGL8.0 has been prepared for **windows** and **VSCode** based on the [original](https://github.com/lvgl/lv_port_pc_VSCode) repository which was prepared for linux.
+In this repository, the simulator for LVGL8.0 has been prepared for **windows** and **VSCode** based on the [original](https://github.com/lvgl/lv_port_pc_VSCode) repository which was ready for Linux.
 
 ## Requirements
 
-This project is configured for windows and VSCode. You need to install the following tools to compile and debug this project:
+This project is configured for windows and VSCode. You need to install the following tools to compile and debug it:
 
 - **VSCode :** Install the [VSCode](https://code.visualstudio.com/download) as code editor
 
@@ -30,7 +30,9 @@ This project is configured for windows and VSCode. You need to install the follo
 
 ### Clone the project
 
-Download and clone the project on your PC by the following command:
+Clone the project on your PC by the following command. Just copy the entire command and paste it inside a **CMD (command prompt)** :)
+
+**Note:** make sure to paste it inside a `CMD` terminal, not inside a `git bash terminal`
 
 ```
 git clone --recursive https://github.com/niaraki/lvgl8.0_simulator_win_vscode.git lvgl_simulator
@@ -40,9 +42,9 @@ code .
 
 ### Build the project
 
-Open the **lvgl_simulator\source** directory inside the vscode and press `ctrl+shift+b` and select `Build` from the opened menu. The build process is started and the final program is created inside the "_./source/build/bin/_" with name of "demo.exe".
+Open the **lvgl_simulator\source** directory inside the vscode and press `ctrl+shift+b` and select `Build` from the opened menu. The build process is started and the final program is created inside the "source\build\bin\" with the name "demo.exe".
 
-**note**: sdl2.dll should be exist beside of "demo.exe" to execute without any Error.
+**Note**: sdl2.dll should be exist beside of "demo.exe" to execute without any Error.
 
 ### Execution
 
@@ -50,7 +52,7 @@ Press **ctrl+shift+b** in VSCode and select **Execute** from the opened menu to 
 
 ### Debug
 
-Press `ctrl+shift+D` in VSCode and click on the "Run and Debug" button or press `F5` to start the debuging session.
+Press `ctrl+shift+d` in VSCode and click on the "Run and Debug" button or press `F5` to start the debuging session.
 
 ### Configuration
 
